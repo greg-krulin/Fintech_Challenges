@@ -13,7 +13,7 @@ The machine learning process involved splitting the data into training and testi
 
 
 * Machine Learning Model 2 (Logistic Regression with Oversampling):
-  * Balanced Accuracy Score: Unknown (based on classification report, it's likely to be high)
+  * Balanced Accuracy Score: 0.99
   * Class 0 Precision: 1.00, Recall: 0.99
   * Class 1 Precision: 0.84, Recall: 0.99
 
