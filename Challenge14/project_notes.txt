@@ -1,0 +1,44 @@
+Adjusting date window:
+
+1 Month gives better results consistently
+
+2-3 months
+equal to actual returns for a good amount with being better after halfway through 2018
+
+4-5 is equal to expect for worse results from 2019-2020
+
+6-7 have same results as well with being equal until worse 2019-2020 but then far outpaces actual after
+
+8-9 is mostly worst, expect for 9 has  slightly better results from 2018-2019
+
+10 is consistently worse
+
+11- 17 months  give exact same as actual returns
+
+18-19 gives same until 2020 which then outpaces actual
+
+20 is slightly worse from halfway 2018-2019 until outpaces it 2020 onward
+
+21 is worse from 2018-2020 then same again
+
+22 is equal until starts being worse at halfway 2018 until 2020 then outpaces
+
+23 equal until 2018 then worse until 2020 outpaces
+
+24-25 equal until halfway 2020 then outpaces
+
+26-68 months equal with actual
+
+Best offset amount of time seems to be 19. 19 actual outpaces 18 by quite a bit.
+
+Changing windows best I could do was 3 months offset with 4, 75. Returns were above actual returns in backtest
+However, having 4, 100 with 19 months offset was still better. Didn't have much luck getting signifanct results with changing the window.
+Would get mostly results that would be the same as actual, sometimes worse, rarely better. 
+
+
+Overall best results was having default window with enddatae being offset by 19 months.
+
+The last testing we tried was using a new model. For this we used logistic regression. As we can see from the graph below,
+the model did out preform the actual return until 2021 where it does signifcantely worse. 
+
+Overall though, the default parameters for the svr model outperforms the logistic regression model.
