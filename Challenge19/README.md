@@ -38,4 +38,4 @@ streamlit run fintech_finder.py
 
 ### Transaction Details
 
-![Transaction Details](Images/transaction.png)
+![Transaction Details](Images/transcation.png)
